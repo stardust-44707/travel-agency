@@ -15,6 +15,16 @@ body {
   letter-spacing: 0.5px;
   overflow-y: scroll;
 }
+.switchWrapper {
+  position: relative;
+
+  > :first-child ~ * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
 
 a, a:hover, a:visited {
   text-decoration: none;
