@@ -4,7 +4,7 @@ import styles from './OrderOption.scss';
 
 const OrderOptionNumber = ({ currentValue, limits, setOptionValue }) => (
   <div className={styles.number}>
-    <input className={styles.inputSmall}
+    <input className={styles.input}
       type="number"
       value={currentValue}
       min={limits.min}
